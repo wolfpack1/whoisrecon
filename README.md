@@ -23,12 +23,12 @@ Requirements:
 
 4. CentralOPS account for accessing Hexillion's Whois XML Web Service (http://centralops.net/co/?_body=order/). To use your account in the program just edit the following line in the file to include your username and password:
 
-file = urllib2.urlopen('http://hexillion.com/rf/xml/1.0/whois/?username=%YOUR USERNAME%&password=%YOUR PASSWORD%&query='+ (s))
+  file = urllib2.urlopen('http://hexillion.com/rf/xml/1.0/whois/?username=%YOUR USERNAME%&password=%YOUR PASSWORD%&query='+ (s))
 
-*Hexillion is recommended as the XML service. Other services use different formats and may not work correctly.
+  *Hexillion is recommended as the XML service. Other services use different formats and may not work correctly.
 
 5. DNSDB API Key from ISC.org. To use your key, edit the dns.conf file:
 
-APIKEY=%YOUR KEY HERE%
-DNSDB_SERVER=https://dnsdb-api.isc.org
-LIMIT=50 
+  APIKEY=%YOUR KEY HERE%
+  DNSDB_SERVER=https://dnsdb-api.isc.org
+  LIMIT=50 
