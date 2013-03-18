@@ -17,7 +17,7 @@ Requirements:
 
 1. Python 2.6/2.7
 
-2. Neo4j Community Edition 1.8.1. If you would like to use our Remote database which is already populated with threat indicators, then please send a request to chall@redskyalliance.org. 
+2. Neo4j Community Edition 1.8.1. If you would like to use our Remote database which is already populated with threat indicators, then please send a request to chall@wapacklabs.com. 
 
 3. Py2neo (http://pypi.python.org/pypi/py2neo)
 
